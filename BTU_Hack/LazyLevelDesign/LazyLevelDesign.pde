@@ -78,9 +78,6 @@ int finishR = color(0,246,255);
 
 int messageIndex = 0;
 String[] introMessages = new String[] 
-
-float screenLuminance;
-
 {
   "Press Start",
   "Draw something that can be seen\nby the camera",

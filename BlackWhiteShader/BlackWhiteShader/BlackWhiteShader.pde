@@ -22,14 +22,14 @@ void setup() {
   
   //new NewThread("TestThread").start();
   //this taskManager overlooks the tasks to be performed by image 0
-  TaskManager image0 = new TaskManager(images.get(0));
-  image0.tasks.add(new Task("wait",new int[]{2000}));
-  image0.tasks.add(new Task("moveTest",new int[]{2000}));
+  //TaskManager image0 = new TaskManager(images.get(0));
+  //image0.tasks.add(new Task("wait",new int[]{2000}));
+  //image0.tasks.add(new Task("moveTest",new int[]{2000}));
   
   lastTime = millis();
 }
 void draw() {
-  print(deltaTime+"\n");
+  //print(deltaTime+"\n");
   deltaTime = millis()-lastTime;
   lastTime = millis();
   
