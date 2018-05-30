@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "Graph.h"
+#include "Graph.cpp"
 
 using namespace std;
 int main(int argc, char *argv[]) {

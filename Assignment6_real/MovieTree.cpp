@@ -14,7 +14,7 @@ void printHelper(MovieNodeBST* bst) {
 		printHelper(bst->leftChild);
 	}
 	MovieNodeLL* index = bst->head;
-	cout << bst->head << "\n";
+	//cout << bst->head << "\n";
 	//wtf
 	while(index) {
 
